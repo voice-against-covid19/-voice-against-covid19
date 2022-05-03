@@ -12,7 +12,7 @@ test:
   stage: test
   script:
     #- bundle exec jekyll build -d test
-  - jekyll serve
+  - jekyll build
   artifacts:
     paths:
     - _site
@@ -23,7 +23,7 @@ pages:
   stage: deploy
   script:
     #- bundle exec jekyll build -d public
-  - jekyll serve
+  - jekyll build
   artifacts:
     paths:
     - _site
