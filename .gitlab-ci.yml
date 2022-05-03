@@ -5,26 +5,28 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - gem install bundler
-  - bundle install
+  - gem install bundler jekyll
+  - gem install jekyll-paginate jekyll-seo-tag jekyll-sitemap webrick
 
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+    #- bundle exec jekyll build -d test
+  - jekyll serve
   artifacts:
     paths:
-    - test
+    - _site
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+    #- bundle exec jekyll build -d public
+  - jekyll serve
   artifacts:
     paths:
-    - public
+    - _site
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 
