@@ -5,14 +5,14 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>端点星</title>
+ <title>中国民间抗疫发声平台</title>
  <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}{{ site.baseurl }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}{{ site.baseurl }}</id>
  <author>
-   <name>端点星</name>
-   <email>terminus2049@protonmail.com</email>
+   <name>中国民间抗疫发声平台</name>
+   <email>mirrorcn@tuta.io</email>
  </author>
 
  {% for post in site.posts limit:20  %}

@@ -1,16 +1,20 @@
 ## 中国民间抗疫发声平台
 
-网站：https://voice-against-covid19.github.io 
+网站：  
+- https://voice-against-covid19.github.io 
+- https://voice-against-covid19.gitlab.io 
 
 GitHub：<https://github.com/voice-against-covid19/voice-against-covid19.github.io>
+GitLab：<https://gitlab.com/voice-against-covid19/voice-against-covid19.github.io>
 
-Fork 自模版： [terminus-jekyll-template](https://github.com/TerminusBot/terminus-jekyll-template)
+模版来自： [terminus-jekyll-template](https://github.com/TerminusBot/terminus-jekyll-template)
 
 
 ## 如何参与
 
+_TODO_
 
-
+论坛：  
 
 ## 镜像网站
 
@@ -38,6 +42,7 @@ jekyll serve
 - [GitHub Corners](http://tholman.com/github-corners/)
 - [pangu.js](https://github.com/vinta/pangu.js)
 - [github-cards](https://github.com/lepture/github-cards)
+- [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
 ### 服务
 
@@ -46,6 +51,7 @@ jekyll serve
 
 ### 贡献者
 
+- 隆重感谢某个银河系最遥远的星球！
 
 
 ## 版权
@@ -56,4 +62,4 @@ jekyll serve
 
 ### 文章版权
 
-[_posts](https://github.com/Terminus2049/voice-against-covid19.github.io/tree/master/_posts) 文件夹内的文章版权归原作者所有，本站只是防止微信、微博等平台删贴，出于善意原则。如果侵犯了您的权益，请提交 [issue](https://github.com/Terminus2049/voice-against-covid19.github.io/issues)，我们将在第一时间予以删除。
+[\_posts](https://github.com/voice-against-covid19/voice-against-covid19.github.io/tree/master/_posts) 文件夹内的文章版权归原作者所有，本站只是防止微信、微博等平台删贴，出于善意原则。如果侵犯了您的权益，请提交 [issue](https://github.com/voice-against-covid19/voice-against-covid19.github.io/issues)，我们将在第一时间予以删除。
