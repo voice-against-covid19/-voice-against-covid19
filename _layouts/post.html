@@ -4,17 +4,13 @@ layout: default
      
 <script type="text/javascript">
     function takeScreenshot() {
-        console.log('test');
-        html2canvas(document.body, {
-        onrendered: function(canvas) {
+        html2canvas(document.body).then(function(canvas) {
             canvas.toBlob(function(blob) {
                 saveAs(blob, "{{ page.title }}.png");
             });
-        }
         });
     }
 </script>
-
 
 <article class="post">
   <h1>{{ page.title }}</h1>
