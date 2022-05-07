@@ -1,6 +1,20 @@
 ---
 layout: default
 ---
+     
+<script type="text/javascript">
+    function takeScreenshot() {
+        console.log('test');
+        html2canvas(document.body, {
+        onrendered: function(canvas) {
+            canvas.toBlob(function(blob) {
+                saveAs(blob, "{{ page.title }}.png");
+            });
+        }
+        });
+    }
+</script>
+
 
 <article class="post">
   <h1>{{ page.title }}</h1>
@@ -19,20 +33,8 @@ layout: default
       </li>
       {% endfor %}
       <a href="https://github.com/voice-against-covid19/voice-against-covid19.github.io/edit/main/{{ page.path }}">点此纠错</a>
-     
-        <script type="text/javascript">
-            function takeScreenshot() {
-                console.log('test');
-                html2canvas(document.body, {
-                onrendered: function(canvas) {
-                    canvas.toBlob(function(blob) {
-                        saveAs(blob, "{{ page.title }}.png");
-                    });
-                }
-                });
-            }
-        </script>
 
+      <input type="button" value="SCREENSHOT" onclick="takeScreenshot()">
     </ul>
   </div>
 
