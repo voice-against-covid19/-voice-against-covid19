@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "如何协作参与端点星计划"
-date:   2018-04-01
+date:   2022-01-01
 categories: sticky
+is_sticky: true
 tags: 参与
 description: Terminus 端点星计划，是在 GitHub 开放平台搭建的一个站点，以去中心化的方式备份微信、微博等平台被删文章。
 ---
