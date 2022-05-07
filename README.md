@@ -1,7 +1,7 @@
 ## 中国民间抗疫发声平台
 
 网站：  
-- https://voice-against-covid19.github.io 
+- https://voice-against-covid19.github.io (主)
 - https://voice-against-covid19.gitlab.io 
 
 GitHub：<https://github.com/voice-against-covid19/voice-against-covid19.github.io>
@@ -14,7 +14,6 @@ GitLab：<https://gitlab.com/voice-against-covid19/voice-against-covid19.github.
 
 _TODO_
 
-论坛：  
 
 ## 镜像网站
 
@@ -37,12 +36,16 @@ jekyll serve
 ### 开源程序
 
 - 博客模板 [kiko-now](https://github.com/AWEEKJ/kiko-now)
+  - 某星球模版： [TerminusBot](https://github.com/TerminusBot/terminus-jekyll-template)
+  - 后人的接力：[Terminus2021](https://github.com/Terminus2021/TermJekyll-template)
 - 字体方案 <http://cosx.org>
 - 分享组件 [Share.js](https://github.com/overtrue/share.js)
 - [GitHub Corners](http://tholman.com/github-corners/)
-- [pangu.js](https://github.com/vinta/pangu.js)
+- 分页 [pangu.js](https://github.com/vinta/pangu.js)
 - [github-cards](https://github.com/lepture/github-cards)
-- [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+- 站内搜索 [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+- 网页转图片 [html2canvas](http://html2canvas.hertzen.com) 
+- 文件下载 [FileSaver](http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js) 
 
 ### 服务
 
